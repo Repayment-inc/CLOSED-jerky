@@ -1,0 +1,185 @@
+@charset "UTF-8";
+
+/* 全体 */
+*{
+    -webkit-box-sizing: border-box;/*ボーダーを要素内に含める*/
+    box-sizing: border-box;
+}
+
+body{
+    display: block;
+    margin: 0;
+    padding-top: 150px;
+}
+
+html, body{
+    width: 100%;
+}
+
+/* 要素別ー共通 */
+
+div{
+    display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p, dl, dd, ul, ol{
+    margin: 0;
+}
+
+a{
+    color: black;
+    background-color: transparent;/*透明*/
+    text-decoration: none;
+    transition: color 0.1s linear;/**/
+}
+
+/* p, li, dt, dd, th, td, pre {
+    -ms-line-break: strict;
+    line-break: strict;
+    -ms-word-break: break-strict;
+    word-break: break-strict;
+} */
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+  
+
+*:before,
+*:after{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+/* アンカー */
+.wrapAnchor{
+    position: relative;
+}
+
+.wrapAnchor .aAnchor{
+    position: absolute;
+    top: -150px;
+}
+
+/* ヘッダー */
+#header{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 9999;
+    /* background: url(/secure/assets-ssl/img/common/bg-01.jpg); */
+    padding: 0;
+}
+
+/* ヘッダー左 */
+#header-logo{
+    padding: 23px 0 24px;
+    float: left;
+    display: block;
+    /* width: 108px; */
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin: 0;
+}
+
+/* ヘッダー右上 */
+#header ul {
+    letter-spacing: -.5em;
+    width: 400px;
+  }
+
+#header li {
+    display: inline-block;
+    letter-spacing: normal;
+}
+
+.mega-menu{
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+
+.column::before, .column::after{
+    content: "";
+    display: table;
+}
+
+
+
+#header-navi{
+    padding: 30px 0 20px;
+    float: right;
+    text-align: right;
+    font-size: 12px;
+}
+
+#header-navi li{
+    vertical-align: middle;
+}
+
+
+/* ヘッダー右下 */
+
+#global-navi{
+    border-left: 1px solid #d9d6ce;
+    float: right;
+    font-family: "貂ｸ譏取悃", "Yu Mincho", "貂ｸ譏取悃菴�", "YuMincho", "繝偵Λ繧ｮ繝取�譛� Pro W3", "Hiragino Mincho Pro", "HiraMinProN-W3", "HGS譏取悃E", "�ｭ�ｳ �ｰ譏取悃", "MS PMincho", serif;
+    font-size: 16px;
+    text-align: right;
+    display: table;
+}
+
+#global-navi li a{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#global-navi li　a, #global-navi li span{
+    white-space: nowrap;
+}
+
+#global-navi li　a, #global-navi li a span{
+    display: block;
+    line-height: 1;
+    text-align: center;
+}
+
+#global-navi li a span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    letter-spacing: 1px;
+    padding: 6px 0 0;
+}
+
+
+#header-navi li{
+    margin-left: 35px;
+}
+
+.header-mega-main a{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* background-image: url(https://shop.r10s.jp/yamagata-kikou/cabinet/03383589/03483899/imgrc0094813630.jpg); */
